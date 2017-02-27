@@ -1,0 +1,28 @@
+1°/ Créer un New repository dans github. 
+	- Cliquer sur le " + " en haut à droite à coté de son perso. 
+	- Taper le nom du repository dans le rectangle.
+	- Valider avec Create repository. 
+
+2°/ Ouvrir le terminal ou la console Linux.
+	- Créer un dossier en local avec la Cmd mkdir et nom du répertoire.
+		ex: mkdir FichierGit
+	- Se placer dedans avec la Cmd cd et nom du répertoire;
+		ex: md FichierGit
+
+3°/ Initialisez le dossier créé qui contiendra vos fichiers.
+	- Cmd: git init
+
+4°/ Préparer le ou les fichiers à envoyer.
+	- Cmd: git add + fichier (si vous ciblez un fichier en particulier)
+	OU
+	- Cmd: git add . (pour tous les fichiers du répertoire)
+
+5°/ Etiqueter votre carton ou paquet à envoyer pour savoir ce qu'il contient
+	- git commit -m "photo de vacances"
+
+6°/ Indiqué à git ou envoyer votre paquet contenant vos fichiers.
+	- git remote add origin + url(indiquée dans github pour faire le lien)
+		ex: git remote add origin https://github.com/votrePseudo/votrerepository.git
+
+7°/ Envoyez le paquet...
+	- git push -u origin master
