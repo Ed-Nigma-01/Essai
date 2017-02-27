@@ -26,3 +26,11 @@
 
 7°/ Envoyez le paquet...
 	- git push -u origin master
+	- git vous demandera votre pseudo ou nom et ensuite votre mon de passe.
+
+
+
+				Voila c'est fini pour cette partie
+		Merci à Philippe pour son diaporama qui m'a aidé à rédiger ce pense bête.
+		
+		    Maintenant tu peus faire la suite avec les pull, pull request.
